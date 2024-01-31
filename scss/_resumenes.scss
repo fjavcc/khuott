@@ -1,0 +1,54 @@
+.btn {
+    background-color: $fondo-botones;
+    color: $fondo-botonesHover;
+    border-radius: 100px;
+    border: black solid 1px;
+
+    &:hover {
+        background-color: $fondo-botonesHover;
+        color: $fondo-botones;
+        text-decoration: none;
+    }
+
+    &:active {
+        background-color: $fondo-botonesHover !important;
+        color: $fondo-botones;
+        text-decoration: none;
+    }
+}
+
+.btn2 {
+    background-color: $fondo-botones;
+    border: none;
+}
+
+.sectionResumenes {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.searchSection {
+    margin-top: 30px;
+}
+
+.page-link {
+    color: $fondo-botonesHover;
+    background-color: $fondo-botones;
+}
+
+.page-item.disabled .page-link {
+    background-color: fondo-botones;
+}
+
+.page-link {
+
+    &:active,
+    &:hover {
+        background-color:$color-marca;
+        color: $fondo-botonesHover;
+    }
+}
+
+a {
+   @include anchor;
+}

@@ -1,0 +1,23 @@
+#carouselExampleFade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: $color-marca;
+    height: 300px;
+    font-size: 48px;
+
+    h2 {
+        font-weight: 400;
+    }
+
+    p {
+        font-weight: 300;
+    }
+}
+
+.autorLibro {
+    color: $color-texto;
+    margin-top: 20px;
+    font-size: 20px;
+}
